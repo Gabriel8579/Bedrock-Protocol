@@ -11,6 +11,10 @@ import lombok.EqualsAndHashCode;
 public class HurtArmorPacket extends BedrockPacket {
     private int cause;
     private int damage;
+    /**
+     * @since v465
+     */
+    private long armorSlots;
 
     @Override
     public final boolean handle(BedrockPacketHandler handler) {

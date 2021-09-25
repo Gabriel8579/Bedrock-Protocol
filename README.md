@@ -130,6 +130,7 @@ server.bind().join();
 | bedrock-v428 | 1.16.210 |
 | bedrock-v431 | 1.16.220 |
 | bedrock-v440 | 1.17.0 |
+| bedrock-v448 | 1.17.10 |
 
 ##### Repository:
 
@@ -153,7 +154,7 @@ server.bind().join();
         <dependency>
             <groupId>com.nukkitx.protocol</groupId>
             <artifactId>bedrock-v(VERSION)</artifactId>
-            <version>2.8.1-SNAPSHOT</version>
+            <version>2.9.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
