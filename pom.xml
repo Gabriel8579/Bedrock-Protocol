@@ -8,7 +8,7 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>2.9.3-PN-SNAPSHOT</version>
-    <name>Protocol Parent</name>
+    <name>Bedrock Edition Protocol (Parent)</name>
     <description>A protocol library for Minecraft</description>
     <url>https://github.com/PowerNukkit/Bedrock-Protocol</url>
     <inceptionYear>2018</inceptionYear>
