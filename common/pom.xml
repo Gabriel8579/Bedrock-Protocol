@@ -4,13 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>parent</artifactId>
-<<<<<<< HEAD
         <groupId>org.powernukkit.bedrock.protocol</groupId>
-        <version>2.9.3-PN-SNAPSHOT</version>
-=======
-        <groupId>com.nukkitx.protocol</groupId>
-        <version>2.9.4-SNAPSHOT</version>
->>>>>>> c1a6e0ee71851c02172a8861adee6a9e27b82c2b
+        <version>2.9.4-PN-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
