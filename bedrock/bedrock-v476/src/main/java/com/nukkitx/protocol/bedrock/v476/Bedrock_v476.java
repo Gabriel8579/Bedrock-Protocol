@@ -89,13 +89,10 @@ import com.nukkitx.protocol.bedrock.v465.serializer.EducationSettingsSerializer_
 import com.nukkitx.protocol.bedrock.v465.serializer.EntityPickRequestSerializer_v465;
 import com.nukkitx.protocol.bedrock.v465.serializer.HurtArmorSerializer_v465;
 import com.nukkitx.protocol.bedrock.v465.serializer.PhotoTransferSerializer_v465;
-import com.nukkitx.protocol.bedrock.v465.serializer.StartGameSerializer_v465;
 import com.nukkitx.protocol.bedrock.v465.serializer.UpdateSubChunkBlocksSerializer_v465;
 import com.nukkitx.protocol.bedrock.v471.serializer.EventSerializer_v471;
 import com.nukkitx.protocol.bedrock.v471.serializer.PhotoInfoRequestSerializer_v471;
 import com.nukkitx.protocol.bedrock.v471.serializer.SubChunkRequestSerializer_v471;
-import com.nukkitx.protocol.bedrock.v471.serializer.SubChunkSerializer_v471;
-import com.nukkitx.protocol.bedrock.v475.BedrockPacketHelper_v475;
 import com.nukkitx.protocol.bedrock.v475.serializer.StartGameSerializer_v475;
 import com.nukkitx.protocol.bedrock.v475.serializer.SubChunkSerializer_v475;
 import lombok.experimental.UtilityClass;
@@ -105,7 +102,7 @@ public class Bedrock_v476 {
     public static BedrockPacketCodec V476_CODEC = BedrockPacketCodec.builder()
             .protocolVersion(476)
             .minecraftVersion("1.18.10")
-            .helper(BedrockPacketHelper_v475.INSTANCE)
+            .helper(BedrockPacketHelper_v476.INSTANCE)
             .registerPacket(LoginPacket.class, LoginSerializer_v291.INSTANCE, 1)
             .registerPacket(PlayStatusPacket.class, PlayStatusSerializer_v291.INSTANCE, 2)
             .registerPacket(ServerToClientHandshakePacket.class, ServerToClientHandshakeSerializer_v291.INSTANCE, 3)
