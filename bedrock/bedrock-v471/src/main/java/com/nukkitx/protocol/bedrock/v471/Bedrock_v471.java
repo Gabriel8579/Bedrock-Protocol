@@ -92,6 +92,7 @@ import com.nukkitx.protocol.bedrock.v465.serializer.PhotoTransferSerializer_v465
 import com.nukkitx.protocol.bedrock.v465.serializer.StartGameSerializer_v465;
 import com.nukkitx.protocol.bedrock.v465.serializer.UpdateSubChunkBlocksSerializer_v465;
 import com.nukkitx.protocol.bedrock.v471.serializer.EventSerializer_v471;
+import com.nukkitx.protocol.bedrock.v471.serializer.PhotoInfoRequestSerializer_v471;
 import com.nukkitx.protocol.bedrock.v471.serializer.SubChunkRequestSerializer_v471;
 import com.nukkitx.protocol.bedrock.v471.serializer.SubChunkSerializer_v471;
 import lombok.experimental.UtilityClass;
@@ -271,6 +272,7 @@ public class Bedrock_v471 {
             .registerPacket(EduUriResourcePacket.class, EduUriResourceSerializer_v465.INSTANCE, 170)
             .registerPacket(CreatePhotoPacket.class, CreatePhotoSerializer_v465.INSTANCE, 171)
             .registerPacket(UpdateSubChunkBlocksPacket.class, UpdateSubChunkBlocksSerializer_v465.INSTANCE, 172)
+            .registerPacket(PhotoInfoRequestPacket.class, PhotoInfoRequestSerializer_v471.INSTANCE, 173)
             .registerPacket(SubChunkPacket.class, SubChunkSerializer_v471.INSTANCE, 174)
             .registerPacket(SubChunkRequestPacket.class, SubChunkRequestSerializer_v471.INSTANCE, 175)
             .build();
