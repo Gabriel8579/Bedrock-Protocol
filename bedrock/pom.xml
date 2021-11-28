@@ -33,6 +33,7 @@
         <module>bedrock-v448</module>
         <module>bedrock-v465</module>
         <module>bedrock-v471</module>
+        <module>bedrock-v476</module>
     </modules>
 </project>
 
